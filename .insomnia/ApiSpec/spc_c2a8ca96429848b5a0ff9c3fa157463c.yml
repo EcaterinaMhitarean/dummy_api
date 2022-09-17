@@ -1,7 +1,7 @@
 _id: spc_c2a8ca96429848b5a0ff9c3fa157463c
 type: ApiSpec
 parentId: wrk_5c6429fa3c2341098857439f1a069af1
-modified: 1663333467062
+modified: 1663373607312
 created: 1663140568716
 fileName: MySEBApi
 contents: |-
@@ -19,12 +19,12 @@ contents: |-
       name: License
       url: https://www.example.com/license
   servers:
-    - url: http://localhost:3000
-      variables: {}
-      description: local fake server
     - url: https://my-json-server.typicode.com/bearc0025/api
       variables: {}
       description: my fake github server
+    - url: http://localhost:3000
+      variables: {}
+      description: local fake server
     - url: https://www.example.com:{port}/{version}
       variables:
         port:
